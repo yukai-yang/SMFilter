@@ -139,7 +139,7 @@ ret = SimModel2(iT=iT, mX=mX, mZ=mZ, mY=mY, alpha=alpha, beta_0=beta_0, mB=mB, v
 And then have a look at the simulated data
 
 ``` r
-matplot(ret$dData[,1:ip], type="l")
+matplot(ret$dData[,1:ip], type="l",ylab="simulated data")
 ```
 
 ![](README-dat2-1.png)
