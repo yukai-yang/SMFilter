@@ -16,7 +16,7 @@ library(tidyverse)
 library(SMFilter)
 ```
 
-# SMFilter version 1.0.0 (Red Filter)
+# SMFilter version 1.0.1 (Red Filter)
 
 
 The package implements the filtering algorithms for the state-space models on the Stiefel manifold. It also implements sampling algorithms for uniform, vector Langevin-Bingham and matrix Langevin-Bingham distributions on the Stiefel manifold.

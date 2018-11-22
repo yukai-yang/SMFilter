@@ -1,4 +1,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+New Featurs in SMFilter 1.0.1
+=============================
+
+-   Remove the location in version() function.
+
 New Featurs in SMFilter 1.0.0
 =============================
 
