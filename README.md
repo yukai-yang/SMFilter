@@ -94,9 +94,13 @@ Then let's apply the filtering algorithm on the data
 fil = FilterModel1(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, beta=beta, mB=mB, Omega=Omega, vD=vD, U0=alpha_0, method=method)
 ```
 
-Then we compare the filtered modal orientations with the true ones in terms of the Frobenius distance.
+Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
 ![](README-dist1-1.png)
+
+What if we start with a wrongly specified initial value, −**α**<sub>0</sub> cannot be worse?
+
+![](README-dist11-1.png)
 
 ### Type two model
 
@@ -150,6 +154,10 @@ Apply the filtering algorithm on the data
 fil = FilterModel2(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, alpha=alpha, mB=mB, Omega=Omega, vD=vD, U0=beta_0, method=method)
 ```
 
-Then we compare the filtered modal orientations with the true ones in terms of the Frobenius distance.
+Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
-![](README-dist-1.png)
+![](README-dist2-1.png)
+
+What if we start with a wrongly specified initial value, −**β**<sub>0</sub> cannot be worse?
+
+![](README-dist22-1.png)

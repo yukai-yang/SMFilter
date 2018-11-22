@@ -101,7 +101,7 @@ Then let's apply the filtering algorithm on the data
 fil = FilterModel1(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, beta=beta, mB=mB, Omega=Omega, vD=vD, U0=alpha_0, method=method)
 ```
 
-Then we compare the filtered modal orientations with the true ones in terms of the Frobenius distance.
+Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
 ```{r dist1, echo=F}
 fil = fil[2:(iT+1),,,drop=F] # remove the initial value
@@ -114,8 +114,26 @@ ftmp <- function(ix){
 }
 # plot the distances
 ggplot() + geom_point(aes(x=1:iT,y=sapply(1:iT,ftmp)/4/ir)) +
-  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized d( \u03b1, U )")
+  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized \u03b4( \u03b1, U )")
 ```
+
+What if we start with a wrongly specified initial value, $-\boldsymbol{\alpha}_0$ cannot be worse?
+
+```{r dist11, echo=F}
+fil = FilterModel1(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, beta=beta, mB=mB, Omega=Omega, vD=vD, U0=-alpha_0, method=method)
+fil = fil[2:(iT+1),,,drop=F] # remove the initial value
+ra = ret$aAlpha # get the true ones
+# define a function to compute the distances
+ftmp <- function(ix){
+  mx1 = matrix(fil[ix,,],ip,ir)
+  mx2 = matrix(ra[ix,,],ip,ir)
+  return(FDist2(mx1,mx2))
+}
+# plot the distances
+ggplot() + geom_point(aes(x=1:iT,y=sapply(1:iT,ftmp)/4/ir)) +
+  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized \u03b4( \u03b1, U )")
+```
+
 
 
 
@@ -169,9 +187,9 @@ Apply the filtering algorithm on the data
 fil = FilterModel2(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, alpha=alpha, mB=mB, Omega=Omega, vD=vD, U0=beta_0, method=method)
 ```
 
-Then we compare the filtered modal orientations with the true ones in terms of the Frobenius distance.
+Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
-```{r dist, echo=F}
+```{r dist2, echo=F}
 fil = fil[2:(iT+1),,,drop=F] # remove the initial value
 ra = ret$aBeta
 ftmp <- function(ix){
@@ -181,6 +199,22 @@ ftmp <- function(ix){
 }
 # plot the distances
 ggplot() + geom_point(aes(x=1:iT,y=sapply(1:iT,ftmp)/4/ir)) +
-  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized d( \u03b2, U )")
+  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized \u03b4( \u03b2, U )")
+```
+
+What if we start with a wrongly specified initial value, $-\boldsymbol{\beta}_0$ cannot be worse?
+
+```{r dist22, echo=F}
+fil = FilterModel2(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, alpha=alpha, mB=mB, Omega=Omega, vD=vD, U0=-beta_0, method=method)
+fil = fil[2:(iT+1),,,drop=F] # remove the initial value
+ra = ret$aBeta
+ftmp <- function(ix){
+  mx1 = matrix(fil[ix,,],iqx,ir)
+  mx2 = matrix(ra[ix,,],iqx,ir)
+  return(FDist2(mx1,mx2))
+}
+# plot the distances
+ggplot() + geom_point(aes(x=1:iT,y=sapply(1:iT,ftmp)/4/ir)) +
+  ylim(0, 1) + labs(x=paste0("t= 1, ...,",iT), y="normalized \u03b4( \u03b2, U )")
 ```
 
