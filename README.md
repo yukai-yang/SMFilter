@@ -11,7 +11,13 @@ The package implements the filtering algorithms for the state-space models on th
 How to install
 --------------
 
-You can install the development version from GitHub
+You can either install the stable version from CRAN
+
+``` r
+install.packages("SMFilter")
+```
+
+or install the development version from GitHub
 
 ``` r
 devtools::install_github("yukai-yang/SMFilter")
