@@ -6,7 +6,7 @@ SMFilter version 1.0.2 (Red Filter)
 
 The package implements the filtering algorithms for the state-space models on the Stiefel manifold. It also implements sampling algorithms for uniform, vector Langevin-Bingham and matrix Langevin-Bingham distributions on the Stiefel manifold. You can also find the package on CRAN, see
 
-[SMFilter@CRAN](https://cran.r-project.org/web/packages/SMFilter)
+[SMFilter@CRAN](https://CRAN.R-project.org/package=SMFilter)
 
 and the corresponding paper
 

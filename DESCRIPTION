@@ -2,7 +2,7 @@ Package: SMFilter
 Title: Filtering Algorithms for the State Space Models on the Stiefel Manifold
 Version: 1.0.2
 Authors@R: person("Yukai", "Yang", email = "yukai.yang@statistik.uu.se",role = c("aut", "cre"))
-Description: Provides the filtering algorithms for the state space models on the Stiefel manifold.
+Description: Provides the filtering algorithms for the state space models on the Stiefel manifold as well as the corresponding sampling algorithms for uniform, vector Langevin-Bingham and matrix Langevin-Bingham distributions on the Stiefel manifold.
 Depends: R (>= 3.0.0)
 License: GPL-3
 Encoding: UTF-8
