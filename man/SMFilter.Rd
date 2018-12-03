@@ -69,7 +69,7 @@ Department of Statistics, Uppsala University
 
 \section{References}{
 
-González, A., Teräsvirta, T., van Dijk, D. and Yang, Y. (2005) "\href{http://swopec.hhs.se/hastef/papers/hastef0604.pdf}{Panel Smooth Transition Regression Models}", SSE/EFI Working Paper Series in Economics and Finance 604, Stockholm School of Economics, revised 11 Oct 2017.
+Yang, Y. and Bauwens, L. (2018) "\href{http://econ.au.dk/fileadmin/site_files/filer_oekonomi/Working_Papers/CREATES/2018/rp18_30_2.pdf}{State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering}", CREATES Research Paper 2018-30.
 }
 
 \section{Simulation}{
