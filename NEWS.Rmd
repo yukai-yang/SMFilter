@@ -14,9 +14,14 @@ knitr::opts_chunk$set(
 )
 ```
 
+# New Featurs in SMFilter 1.0.3
+
+* Change the reference to the publication.
+
 # New Featurs in SMFilter 1.0.2
 
 * Add the working paper reference.
+* Some bugs fixed.
 
 # New Featurs in SMFilter 1.0.1
 

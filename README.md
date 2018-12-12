@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-SMFilter version 1.0.2 (Red Filter)
+SMFilter version 1.0.3 (Red Filter)
 ===================================
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SMFilter?color=green)](https://cran.r-project.org/package=SMFilter) ![](http://cranlogs.r-pkg.org/badges/grand-total/SMFilter?color=green) ![](http://cranlogs.r-pkg.org/badges/SMFilter?color=green) ![](http://cranlogs.r-pkg.org/badges/last-week/SMFilter?color=green)
@@ -10,7 +10,7 @@ The package implements the filtering algorithms for the state-space models on th
 
 and the corresponding paper
 
-[Yang, Y.; Bauwens, L. State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering. *Econometrics* **2018**, 6, 48.](https://www.mdpi.com/2225-1146/6/4/48)
+[State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering](https://www.mdpi.com/2225-1146/6/4/48)
 
 How to install
 --------------

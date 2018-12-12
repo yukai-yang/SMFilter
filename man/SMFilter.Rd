@@ -69,7 +69,7 @@ Department of Statistics, Uppsala University
 
 \section{References}{
 
-Yang, Y. and Bauwens, L. (2018) "\href{http://econ.au.dk/fileadmin/site_files/filer_oekonomi/Working_Papers/CREATES/2018/rp18_30_2.pdf}{State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering}", CREATES Research Paper 2018-30.
+Yang, Yukai and Bauwens, Luc. (2018) "\href{https://www.mdpi.com/2225-1146/6/4/48}{State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering}", Econometrics, 6(4), 48.
 }
 
 \section{Simulation}{
