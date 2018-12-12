@@ -10,7 +10,7 @@ The package implements the filtering algorithms for the state-space models on th
 
 and the corresponding paper
 
-[State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering](http://econ.au.dk/fileadmin/site_files/filer_oekonomi/Working_Papers/CREATES/2018/rp18_30_2.pdf)
+[Yang, Y.; Bauwens, L. State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering. *Econometrics* **2018**, 6, 48.](https://www.mdpi.com/2225-1146/6/4/48)
 
 How to install
 --------------
