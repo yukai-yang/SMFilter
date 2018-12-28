@@ -42,7 +42,7 @@ You can first check the information and the current version number by running
 
 ``` r
 version()
-#> SMFilter version 1.0.2 (Red Filter)
+#> SMFilter version 1.0.3 (Red Filter)
 ```
 
 Then you can take a look at all the available functions and data in the package
@@ -100,7 +100,7 @@ Have a look at the simulated data
 matplot(ret$dData[,1:ip], type="l", ylab="simulated data")
 ```
 
-![](README-dat1-1.png)
+![](rmd_files/README-dat1-1.png)
 
 Then let's apply the filtering algorithm on the data
 
@@ -110,11 +110,11 @@ fil = FilterModel1(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, beta=beta, mB=m
 
 Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
-![](README-dist1-1.png)
+![](rmd_files/README-dist1-1.png)
 
 What if we start with a wrongly specified initial value, −**α**<sub>0</sub> cannot be worse?
 
-![](README-dist11-1.png)
+![](rmd_files/README-dist11-1.png)
 
 ### Type two model
 
@@ -160,7 +160,7 @@ And then have a look at the simulated data
 matplot(ret$dData[,1:ip], type="l",ylab="simulated data")
 ```
 
-![](README-dat2-1.png)
+![](rmd_files/README-dat2-1.png)
 
 Apply the filtering algorithm on the data
 
@@ -170,8 +170,8 @@ fil = FilterModel2(mY=as.matrix(ret$dData[,1:ip]), mX=mX, mZ=mZ, alpha=alpha, mB
 
 Then we compare the filtered modal orientations with the true ones in terms of the squared Frobenius norm distance (normalized).
 
-![](README-dist2-1.png)
+![](rmd_files/README-dist2-1.png)
 
 What if we start with a wrongly specified initial value, −**β**<sub>0</sub> cannot be worse?
 
-![](README-dist22-1.png)
+![](rmd_files/README-dist22-1.png)
