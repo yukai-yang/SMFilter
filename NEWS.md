@@ -1,4 +1,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+New Featurs in SMFilter 1.0.4
+=============================
+
+-   The author's ORCID has been added.
+
 New Featurs in SMFilter 1.0.3
 =============================
 
