@@ -3,6 +3,7 @@
 #################################################################################
 
 vnum = "1.0.4"
+packname = "(Red Filter)"
 
 # simple cat
 cat0 <- function(...)
@@ -21,7 +22,7 @@ cat0 <- function(...)
 #'
 #' @export
 version <- function(){
-  cat0("SMFilter version ", vnum, " (Red Filter)")
+  cat0("SMFilter version ", vnum, " ",packname)
 }
 
 # exponential trace
