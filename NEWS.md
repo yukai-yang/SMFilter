@@ -1,4 +1,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+New Featurs in SMFilter 1.0.5
+=============================
+
+-   CITATION added.
+
 New Featurs in SMFilter 1.0.4
 =============================
 
