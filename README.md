@@ -175,3 +175,37 @@ Then we compare the filtered modal orientations with the true ones in terms of t
 What if we start with a wrongly specified initial value, −**β**<sub>0</sub> cannot be worse?
 
 ![](rmd_files/README-dist22-1.png)
+
+
+## Citation
+
+If you use SMFilter in your research, please cite both the software and the underlying article.
+
+**Software**
+
+```
+@Manual{SMFilter,
+  title  = {SMFilter: Filtering Algorithms for the State Space Models on the Stiefel Manifold},
+  author = {Yukai Yang},
+  year   = {2018},
+  note   = {R package version 1.0.3},
+  doi    = {10.32614/CRAN.package.SMFilter},
+  url    = {https://CRAN.R-project.org/package=SMFilter}
+}
+```
+
+**Methodology**
+
+```
+@Article{YangBauwens2018,
+  title   = {State-Space Models on the Stiefel Manifold with a New Approach to Nonlinear Filtering},
+  author  = {Yang, Yukai and Bauwens, Luc},
+  journal = {Econometrics},
+  year    = {2018},
+  volume  = {6},
+  number  = {4},
+  pages   = {48},
+  doi     = {10.3390/econometrics6040048},
+  url     = {https://www.mdpi.com/2225-1146/6/4/48}
+}
+```
