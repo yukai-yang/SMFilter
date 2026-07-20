@@ -9,7 +9,7 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/yukai-yang/SMFilter
 BugReports: https://github.com/yukai-yang/SMFilter/issues
-Suggests: 
+Suggests:
     knitr,
     rmarkdown,
     ggplot2

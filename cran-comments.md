@@ -4,12 +4,15 @@ This is a maintenance update to the CRAN package "SMFilter".
 
 Version 1.0.5 fixes Rd markup issues reported by CRAN, updates package citation metadata, and modernises the package-level roxygen documentation while keeping the statistical methodology and the user-facing workflow unchanged.
 
+This resubmission also addresses the incoming pretest notes by restoring the vignette source file and excluding repository-only files from the source package build.
+
 ## Main changes
 
 * Fixed Rd markup for lagged dependent-variable subscripts in `SimModel1()` and `SimModel2()`, resolving the "Lost braces" notes in the Rd files check.
 * Updated the package citation metadata to refer to version 1.0.5 while retaining the original software year.
 * Updated package-level roxygen documentation to use the recommended `"_PACKAGE"` sentinel instead of deprecated `@docType package`.
 * Updated README and NEWS entries for the maintenance release.
+* Restored the `readme` vignette source and retained the required vignette metadata.
 * Excluded repository-only files from the source package build.
 
 Existing user code following documented usage should continue to work as before.

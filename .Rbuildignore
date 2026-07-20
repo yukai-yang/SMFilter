@@ -3,3 +3,7 @@
 ^\.github$
 ^LICENSE$
 ^CRAN-SUBMISSION$
+^CODE_OF_CONDUCT\.md$
+^_config\.yml$
+^cran-comments\.md$
+^rmd_files$
