@@ -18,7 +18,7 @@ SimModel1(iT, mX = NULL, mZ = NULL, mY = NULL, alpha_0, beta,
 
 \item{alpha_0}{the initial alpha, \eqn{p \times r}.}
 
-\item{beta}{the \eqn{\beta} matrix, iqx+ip*ik, y_{1,t-1},y_{1,t-2},...,y_{2,t-1},y_{2,t-2},...}
+\item{beta}{the \eqn{\beta} matrix, \eqn{iqx + ip * ik}, with lagged dependent variables such as \eqn{y_{1,t-1}, y_{1,t-2}, \ldots, y_{2,t-1}, y_{2,t-2}, \ldots}.}
 
 \item{mB}{the coefficient matrix \eqn{\boldsymbol{B}} before \code{mZ} with dimension \eqn{p \times q_2}.}
 

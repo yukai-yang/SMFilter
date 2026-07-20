@@ -40,7 +40,7 @@
 #' @param mZ the matrix containing Z_t with dimension \eqn{T \times q_2}.
 #' @param mY initial values of the dependent variable for \code{ik-1} up to 0. If \code{mY = NULL}, then no lagged dependent variables in regressors.
 #' @param alpha_0 the initial alpha, \eqn{p \times r}.
-#' @param beta the \eqn{\beta} matrix, iqx+ip*ik, y_{1,t-1},y_{1,t-2},...,y_{2,t-1},y_{2,t-2},...
+#' @param beta the \eqn{\beta} matrix, \eqn{iqx + ip * ik}, with lagged dependent variables such as \eqn{y_{1,t-1}, y_{1,t-2}, \ldots, y_{2,t-1}, y_{2,t-2}, \ldots}.
 #' @param mB the coefficient matrix \eqn{\boldsymbol{B}} before \code{mZ} with dimension \eqn{p \times q_2}.
 #' @param Omega covariance matrix of the errors.
 #' @param vD vector of the diagonals of \eqn{D}.
@@ -196,7 +196,7 @@ SimModel1 <- function(iT, mX=NULL, mZ=NULL, mY=NULL, alpha_0, beta, mB=NULL, Ome
 #' @param mX the matrix containing X_t with dimension \eqn{T \times q_1}.
 #' @param mZ the matrix containing Z_t with dimension \eqn{T \times q_2}.
 #' @param mY initial values of the dependent variable for \code{ik-1} up to 0. If \code{mY = NULL}, then no lagged dependent variables in regressors.
-#' @param beta_0 the initial beta, iqx+ip*ik, y_{1,t-1},y_{1,t-2},...,y_{2,t-1},y_{2,t-2},....
+#' @param beta_0 the initial beta, \eqn{iqx + ip * ik}, with lagged dependent variables such as \eqn{y_{1,t-1}, y_{1,t-2}, \ldots, y_{2,t-1}, y_{2,t-2}, \ldots}.
 #' @param alpha the \eqn{\alpha} matrix, \eqn{p \times r}.
 #' @param mB the coefficient matrix \eqn{\boldsymbol{B}} before \code{mZ} with dimension \eqn{p \times q_2}.
 #' @param Omega covariance matrix of the errors.

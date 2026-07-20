@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-SMFilter version 1.0.4 (Red Filter)
+SMFilter version 1.0.5 (Red Filter)
 ===================================
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SMFilter?color=green)](https://cran.r-project.org/package=SMFilter) ![](http://cranlogs.r-pkg.org/badges/grand-total/SMFilter?color=green) ![](http://cranlogs.r-pkg.org/badges/SMFilter?color=green) ![](http://cranlogs.r-pkg.org/badges/last-week/SMFilter?color=green)
@@ -43,7 +43,7 @@ You can first check the information and the current version number by running
 
 ``` r
 version()
-#> SMFilter version 1.0.3 (Red Filter)
+#> SMFilter version 1.0.5 (Red Filter)
 ```
 
 Then you can take a look at all the available functions and data in the package
@@ -189,7 +189,7 @@ If you use SMFilter in your research, please cite both the software and the unde
   title  = {SMFilter: Filtering Algorithms for the State Space Models on the Stiefel Manifold},
   author = {Yukai Yang},
   year   = {2018},
-  note   = {R package version 1.0.3},
+  note   = {R package version 1.0.5},
   doi    = {10.32614/CRAN.package.SMFilter},
   url    = {https://CRAN.R-project.org/package=SMFilter}
 }

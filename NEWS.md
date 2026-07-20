@@ -3,6 +3,7 @@ New Featurs in SMFilter 1.0.5
 =============================
 
 -   CITATION added.
+-   Fixed Rd markup for lagged dependent-variable subscripts.
 
 New Featurs in SMFilter 1.0.4
 =============================
