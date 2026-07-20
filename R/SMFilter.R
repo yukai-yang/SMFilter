@@ -90,9 +90,8 @@
 #' @section Other Functions:
 #' \code{\link{version}} shows the version number and some information of the package.
 #'
-#' @docType package
 #' @name SMFilter
-NULL
+"_PACKAGE"
 
 #' @importFrom stats optim rbeta rnorm runif
 NULL

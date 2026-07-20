@@ -4,8 +4,18 @@
 \alias{SimModel1}
 \title{Simulate from the type one state-space Model on Stiefel manifold.}
 \usage{
-SimModel1(iT, mX = NULL, mZ = NULL, mY = NULL, alpha_0, beta,
-  mB = NULL, Omega = NULL, vD, burnin = 100)
+SimModel1(
+  iT,
+  mX = NULL,
+  mZ = NULL,
+  mY = NULL,
+  alpha_0,
+  beta,
+  mB = NULL,
+  Omega = NULL,
+  vD,
+  burnin = 100
+)
 }
 \arguments{
 \item{iT}{the sample size.}

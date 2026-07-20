@@ -4,8 +4,7 @@
 \alias{FilterModel1}
 \title{Filtering algorithm for the type one model.}
 \usage{
-FilterModel1(mY, mX, mZ, beta, mB = NULL, Omega, vD, U0,
-  method = "max_1")
+FilterModel1(mY, mX, mZ, beta, mB = NULL, Omega, vD, U0, method = "max_1")
 }
 \arguments{
 \item{mY}{the matrix containing Y_t with dimension \eqn{T \times p}.}

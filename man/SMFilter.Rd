@@ -2,8 +2,8 @@
 % Please edit documentation in R/SMFilter.R
 \docType{package}
 \name{SMFilter}
-\alias{SMFilter}
 \alias{SMFilter-package}
+\alias{SMFilter}
 \title{SMFilter: a package implementing the filtering algorithms for the state-space models on the Stiefel manifold.}
 \description{
 The package implements the filtering algorithms for the state-space models on the Stiefel manifold.
@@ -100,3 +100,20 @@ Yang, Yukai and Bauwens, Luc. (2018) "\href{https://www.mdpi.com/2225-1146/6/4/4
 \code{\link{version}} shows the version number and some information of the package.
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/yukai-yang/SMFilter}
+  \item Report bugs at \url{https://github.com/yukai-yang/SMFilter/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Yukai Yang \email{yukai.yang@statistik.uu.se} (\href{https://orcid.org/0000-0002-2623-8549}{ORCID})
+
+Authors:
+\itemize{
+  \item Yukai Yang \email{yukai.yang@statistik.uu.se} (\href{https://orcid.org/0000-0002-2623-8549}{ORCID})
+}
+
+}
